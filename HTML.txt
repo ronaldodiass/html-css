@@ -1,0 +1,27 @@
+HTML:
+<br> Quebra para a linha de baixo
+<p> Adiciona um parágrafo </p>
+<h1> Adiciona um título </h1>
+<hr> Adiciona um linha horizontal
+& = Utilizado para criar caracteres especiais
+&#x1F913, por exemplo, é utilizado para criação de emojis
+Emmet: Wrap With Abbreviation
+<code> Formata o texto
+<q> Faz um citação
+<sup> Texto em cima
+<sub> Texto em baixo
+<mark> Marca o texto
+<abbr> Mostra o signifcado de uma sigla
+<blockquote cite=> faz um citação
+<ol> Criar uma lista ordenada
+<li> Listar algo
+<ul> Criar uma lista desordenada
+<dd> 
+<dt> 
+<a> Ancora para linkar
+target="_blank" rel="external" =  abre um site externo sem fechar o anterior
+<a href="x" download="x" type="application/x"> = realiza download de um link no site
+
+
+
+

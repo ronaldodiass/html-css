@@ -1,0 +1,30 @@
+CSS:
+font-family = muda a fonte;
+font-size = muda o tamanho;
+color = muda a cor;
+HSL (hue, saturation, luminosity);
+RGB (red, green, blue);
+Hexadecimal: 0 1 2 3 4 5 6 7 8 9 A B C D E F;
+border-radius = adiciona uma borda arredondada
+weight = peso (100 - 900)
+height = altura
+widht = largura
+padding = preenchimento
+border = borda 
+margin = margem da caixa
+outline = contorno da caixa
+margin: auto; = altera a borda do tamanho do navegador automaticamente
+box-shadow: 0px 0px 0px 0px; = adiciona sombra (LADO, ALTURA, ESPALHAMENTO, DUREZA)
+background-image: linear-gradient; =  adiciona degradê ao site
+Valores de fonts = lighter - normal - bold - bolder
+text-decoration
+font-style
+SELETORES PERSONALIZADOS
+# = id
+. = class
+: = pseudo-class
+:: = pseudo-element
+> = children
+BOX-LEVEL: main, header, nav, article, footers, 
+INLINE-LEVEL: code, small, strong, em, sup, sub, label, button, input, select
+border-image: url('x') x repeat 
