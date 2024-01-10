@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: arial;
+            
+        }
+
+        table {
+            width: 600px;   
+            border-collapse: collapse;
+            margin: auto;
+            
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bolder;
+            padding: 10px;
+            background-color: rgba(211, 211, 211, 0.486);
+            border: 1px solid black;
+            border-radius: 10px 10px 0px 0px;
+        }
+        
+        td,th {
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+
+        thead, tfoot {
+            background-color: rgba(211, 211, 211, 0.486);
+        }
+
+        td.posicao  {
+            text-align: center;
+        }
+
+        td.quantidade {
+            text-align: right;
+        }
+
+        td.estado {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Uso de tabelas grandes</h1>
+    <table>
+        <caption>População das unidades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Posiçãoº</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td class="posicao" style="width: 50px;">1º</td>
+                <td class="estado" style="width: 100px">São Paulo</td>
+                <td class="quantidade" style="width: 50px;">45.000.000</td>
+            </tr>
+            <tr>
+                <td class="posicao">2º</td>
+                <td class="estado">Minas Gerais</td>
+                <td class="quantidade">21.000.000</td>
+            </tr>
+            <tr>
+                <td class="posicao">3º</td>
+                <td class="estado">Rio de Janeiro</td>
+                <td class="quantidade">17.000.000</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <th></th>
+                <td class="quantidade"><strong>83.000.000</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
