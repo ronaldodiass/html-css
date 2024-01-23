@@ -22,6 +22,17 @@ Emmet: Wrap With Abbreviation
 target="_blank" rel="external" =  abre um site externo sem fechar o anterior
 <a href="x" download="x" type="application/x"> = realiza download de um link no site
 
+tabelas
+<table> criar uma tabela
+<tr> table row - linha da tabela
+<td> table data - dado de uma tabela
+<th>/<thead> cabeçalho de uma tabela
+<tbody> corpo da tabela
+<tfoot> rodape de uma tabela
+
+
+
+
 
 
 
